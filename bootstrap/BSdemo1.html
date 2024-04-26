@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap\js\bootstrap.bundel.min.js"></script>
+	<style type="text/css">
+		.bgcolor1{
+			background-color: #7ED846;
+		}
+		.row > div{
+			border: 1px solid;
+			padding: 5px;
+			vertical-align: text-top;
+		}
+		.bannersize{
+			height: 100px;
+			margin-left: 39px;
+			margin-right: 39px;
+			text-align: center;
+			padding: 20px;			
+		}
+
+	</style>
+</head>
+<body>
+	<!-- <H1>HELLO WORLD</H1>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-targer="mymenus">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<a href="#" class="navbar-brand">BearClaw INC</a>
+
+	<div class="collapse navbar-collapse" id="mymenus">
+		<ul class="navbar-nav me-auto mb-2 mb-sm-0"><!-- ilagay sa gilid -->
+			<li class="nav-item">
+				<a href="#" class="nav-link">Nav Link 1</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Nav Link 2</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Nav Link 3</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Nav Link 4</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Nav Link 5</a>
+			</li>
+		</ul>
+	</div>	
+</nav>
+
+	<div class="bg-info text-white bannersize">
+		<h3>HELLO THIS IS MY BOOTSTRAP DEMO</h3>
+		<p>Your wish is my command</p>
+	</div>
+	<div class="container bgcolor1"> <!-- THIS IS MY BOOTSTRAP FILE Container Only -->
+		
+		<div class="row">
+			<div class="col-md-3 ">Coloumn 1</div>
+			<div class="col-md-3">Coloumn 2</div>
+			<div class="col-md-3">Coloumn 3</div>
+			<div class="col-md-3">Coloumn 4</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-lg-2">Coloumn 5</div>
+			<div class="col-md-10 col-lg-10" style="height: 200px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-outline-success btn-sm">Button One :)</button>
+					<button type="button" class="btn btn-outline-success btn-sm">Button One :)</button>
+
+					<div class="btn-group" role="group">
+						<button id=mybutons type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">Sub Menu</button>
+
+						<ul class="dropdown-menu" id="mybutons">
+							<li><a href="#" class="dropdown-item">DROPDOWN LINK A</a></li>
+							<li><a href="#" class="dropdown-item">DROPDOWN LINK B</a></li>
+							<li><a href="#" class="dropdown-item">DROPDOWN LINK C</a></li>
+						</ul>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">Coloumn A</div>
+			<div class="col-lg-6">Coloumn B</div>
+		</div>
+	</div>
+	<!-- <div class="container-fluid bgcolor1"> THIS IS MY BOOTSTRAP FILE Container fluid
+	</div> -->
+
+
+</body>
+</html>
